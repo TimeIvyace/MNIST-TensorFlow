@@ -8,5 +8,7 @@ train_improved1.py文件中使用tf.get_variable和tf.variable_scope函数进行
 train_improved1.py具体代码理解可见：http://blog.csdn.net/gaoyueace/article/details/79079068
 为了让神经网络训练结果可以复用，需要将训练的到的神经网络模型持久化。
 train_improved2文件夹中一共三个py程序，将训练的到的神经网络模型持久化，使用时同时运行mnist_train.py(用于训练)和mnist_eval.py(用于测试)即可。
-train_improved2文件夹中代码为MNIST处理终极版，具体理解可见：http://blog.csdn.net/gaoyueace/article/details/79102149
+train_improved2文件夹中代码为MNIST神经网络处理终极版，具体理解可见：http://blog.csdn.net/gaoyueace/article/details/79102149
 注意：使用代码需要修改MNIST数据集存储位置以及神经网络存储位置。
+train_improved3文件夹中一共三个py程序，分别用于卷积神经网络的参数设置，训练以及测试。
+train_improved3文件夹中代码为LeNet-5卷积神经网络处理，具体理解可见：http://blog.csdn.net/gaoyueace/article/details/79189609
